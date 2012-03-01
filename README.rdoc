@@ -1,3 +1,7 @@
 = annotate_emails
 
-Description goes here
+Useful when tickets come from emails, with the following params :  unknown_user=accept no_permission_check=1
+
+By default, in Redmine, it sets the ticket reporter as anonymous user.
+
+This plugin adds a custom field, `sender_email` and populates this field with the From email.
